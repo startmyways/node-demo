@@ -1,0 +1,8 @@
+<div class="container">
+    <h3><%=title%>></h3>
+    <ul>
+        <%items.forEach(function(item){ %>
+            <li><a href="<%=item.link%>"><%=item.name%></a></li>
+        <% })%>
+    </ul>
+</div>
